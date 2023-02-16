@@ -1,0 +1,48 @@
+body {
+    margin: 100px 100px 40px 100px;
+}
+
+td {
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.rank {
+    width: fit-content;
+    
+}
+
+.title {
+    width: fit-content;
+}
+
+.table-header > td {
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px black solid;
+}
+
+.table-header > .rank {
+    width: 30px;
+}
+
+.table-header > .title {
+    width: 80px;
+}
+
+td > img {
+    width: 200px;
+    height: 300px;
+}
+
+.summary {
+    width: fit-content;
+}
+
+.table-header > .summary {
+    width: fit-content;
+}
