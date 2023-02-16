@@ -1,5 +1,5 @@
 body {
-    margin: 100px 100px 40px 100px;
+    margin: 100px 100px 100px 100px;
 }
 
 td {
@@ -45,4 +45,18 @@ td > img {
 
 .table-header > .summary {
     width: fit-content;
+}
+
+.name {
+    width: 300px;
+}
+
+span {
+    margin-right: 20px;
+}
+
+form {
+    border: solid black 1px;
+    padding: 20px;
+    align-content: center;
 }

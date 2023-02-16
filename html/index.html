@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <script type="text/javascript" src="../js/index.js"></script>
     <title>Merry ME</title>
 </head>
 <body>
@@ -94,7 +95,18 @@
     <br>
     <div>
         <h1>📝 방명록 📝</h1>
-        
+        <form action="">
+            이름 : <input type="text" id="friendName"><br><br>
+            <h3>본인 취향 영화를 선택하세요!</h3>
+            <span>아바타 2 <input type='checkbox' name='movieName' value='movieName'/></span>
+            <span>라라랜드 <input type='checkbox' name='movieName' value='movieName'/></span>
+            <span>노트북 <input type='checkbox' name='movieName' value='movieName'/></span>
+            <span>비긴어게인 <input type='checkbox' name='movieName' value='movieName'/></span>
+            <span>맘마미아 <input type='checkbox' name='movieName' value='movieName'/></span>
+            <br><br>
+            <input id="saveButton" type="button" value="등록">
+            <input id="resetbutton" type="reset" value="취소">
+        </form>
     </div>
 </body>
 </html>
